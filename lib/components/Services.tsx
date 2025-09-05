@@ -60,7 +60,7 @@ export const Services = () => {
         >
           {/* Main card content - always visible */}
           <div
-            className={`p-5 h-[176px] bg-none ${company.bgGradient} ${company.colors} overflow-hidden group-hover:items-start text-left hover:h-[500px] md:hover:h-[470px] transition-all duration-500 ease-out`}
+            className={`p-3 sm:p-4 md:p-5 h-[160px] md:h-[176px] bg-none ${company.bgGradient} ${company.colors} overflow-hidden group-hover:items-start text-left hover:h-[500px] md:hover:h-[500px] transition-all duration-500 ease-out`}
           >
             <div className="flex items-center gap-6">
               <img
@@ -74,12 +74,12 @@ export const Services = () => {
               <div className="flex-1">
                 <div className="h-32 flex justify-center flex-col">
                   <h3
-                    className={`text-lg md:text-xl font-semibold text-slate-900 mb-1 ${company.hoverTextColor}`}
+                    className={`sm:text-lg md:text-xl font-semibold text-slate-900 mb-1 ${company.hoverTextColor}`}
                   >
                     {company.name}
                   </h3>
                   <p
-                    className={`text-slate-800 md:text-lg ${company.hoverTextColor}`}
+                    className={`text-slate-800 text-sm sm:text-base md:text-lg ${company.hoverTextColor}`}
                   >
                     {company.description}
                   </p>
@@ -98,7 +98,7 @@ export const Services = () => {
                   className="w-full h-32 object-cover rounded shadow-lg my-4"
                 />
                 <p
-                  className={`text-slate-800 text-sm leading-relaxed ${company.hoverTextColor}`}
+                  className={`text-slate-800 text-xs md:text-sm lg:text-base leading-relaxed ${company.hoverTextColor}`}
                 >
                   {company.expandedContent}
                 </p>
