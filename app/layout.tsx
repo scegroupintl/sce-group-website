@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "SCE International",
   description: "Deploy your static Next.js site to GitHub Pages.",
   icons: {
-    icon: "/sce-favicon-192.png",
+    icon: `${process.env.PAGES_BASE_PATH || ""}/sce-favicon-192.png`,
   },
 };
 
