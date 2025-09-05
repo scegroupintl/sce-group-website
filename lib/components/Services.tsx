@@ -18,7 +18,7 @@ export const Services = () => {
       buttonColor: "bg-blue-600 hover:bg-blue-700",
       shadowColor: "hover:shadow-blue-700/25",
       hoverTextColor: "",
-      bgGradient: "bg-gradient-to-r",
+      bgGradient: "hover:bg-gradient-to-r",
     },
     {
       logo: `${process.env.PAGES_BASE_PATH}/sce-accounting.jpg`,
@@ -33,7 +33,7 @@ export const Services = () => {
       buttonColor: "bg-teal-600 hover:bg-teal-700",
       shadowColor: "hover:shadow-teal-700/25",
       hoverTextColor: "",
-      bgGradient: "bg-gradient-to-r",
+      bgGradient: "hover:bg-gradient-to-r",
     },
     {
       logo: `${process.env.PAGES_BASE_PATH}/sce-cinematic.jpg`,
@@ -48,7 +48,7 @@ export const Services = () => {
       buttonColor: "bg-blue-700 hover:bg-blue-600",
       shadowColor: "hover:shadow-slate-700/25",
       hoverTextColor: "group-hover:text-white",
-      bgGradient: "bg-radial",
+      bgGradient: "hover:bg-radial",
     },
   ];
   return (
@@ -60,7 +60,7 @@ export const Services = () => {
         >
           {/* Main card content - always visible */}
           <div
-            className={`p-5 h-[176px] flex items-center bg-none hover:${company.bgGradient} ${company.colors} group-hover:items-start space-x- text-left gap-6 hover:h-[450px] transition-all duration-500 ease-out`}
+            className={`p-5 h-[176px] flex items-center bg-none ${company.bgGradient} ${company.colors} group-hover:items-start space-x- text-left gap-6 hover:h-[450px] transition-all duration-500 ease-out`}
           >
             <img
               src={company.logo}
