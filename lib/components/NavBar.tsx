@@ -32,7 +32,7 @@ export const NavBar = () => {
           <div className="flex items-center">
             <div className="text-2xl font-bold text-primary py-2">
               <Link href="/">
-                <img src="/internationalsce_logo.png" alt="SCE Group Logo" />
+                <img src={`${process.env.PAGES_BASE_PATH || ""}/internationalsce_logo.png`} alt="SCE Group Logo" />
               </Link>
             </div>
           </div>
