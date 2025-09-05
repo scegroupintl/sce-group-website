@@ -5,7 +5,7 @@ const roboto = Roboto({ weight: "400", subsets: ["latin"] });
 export const Services = () => {
   const companies = [
     {
-      logo: "/sce_intl_square.jpg",
+      logo: `${process.env.PAGES_BASE_PATH}/sce_intl_square.jpg`,
       name: "SCE International",
       description:
         "Servicios de Landscaping, Pintura, Plomería, Albañilería, Mantenimiento y más",
@@ -19,7 +19,7 @@ export const Services = () => {
       shadowColor: "hover:shadow-blue-700/25",
     },
     {
-      logo: "/sce-accounting.jpg",
+      logo: `${process.env.PAGES_BASE_PATH}/sce-accounting.jpg`,
       name: "SCE Accounting Services",
       description: "Servicios de contabilidad y preparación de impuestos",
       expandedContent:
@@ -32,7 +32,7 @@ export const Services = () => {
       shadowColor: "hover:shadow-teal-700/25",
     },
     {
-      logo: "/sce-cinematic.jpg",
+      logo: `${process.env.PAGES_BASE_PATH}/sce-cinematic.jpg`,
       name: "SCE Cinematic Group",
       description: "Grabacíón y producción de videos profesionales.",
       expandedContent:
