@@ -74,12 +74,12 @@ export const Services = () => {
               <div className="flex-1">
                 <div className="h-32 flex justify-center flex-col">
                   <h3
-                    className={`text-xl font-semibold text-slate-900 mb-1 ${company.hoverTextColor}`}
+                    className={`text-lg md:text-xl font-semibold text-slate-900 mb-1 ${company.hoverTextColor}`}
                   >
                     {company.name}
                   </h3>
                   <p
-                    className={`text-slate-800 text-lg ${company.hoverTextColor}`}
+                    className={`text-slate-800 md:text-lg ${company.hoverTextColor}`}
                   >
                     {company.description}
                   </p>
