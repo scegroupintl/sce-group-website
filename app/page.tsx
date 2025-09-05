@@ -4,8 +4,8 @@ import Link from "next/link";
 import { Roboto , Kaisei_Opti} from "next/font/google";
 import { Services } from "@/lib/components/Services";
 
-const roboto = Roboto({ weight: "400" });
-const headerFont = Kaisei_Opti({ weight: "400" });
+const roboto = Roboto({ weight: "400", subsets: ["latin"] });
+const headerFont = Kaisei_Opti({ weight: "400", subsets: ["latin"] });
 
 export default function Home() {
   const inputClassNames =

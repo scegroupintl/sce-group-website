@@ -3,7 +3,7 @@ import { IBM_Plex_Serif } from "next/font/google";
 import "./globals.css";
 import Footer from "@/lib/components/Footer";
 
-const fontFamily = IBM_Plex_Serif({ weight: "400" });
+const fontFamily = IBM_Plex_Serif({ weight: "400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "SCE International",

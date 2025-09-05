@@ -3,7 +3,7 @@ import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
 import { Roboto } from "next/font/google";
 
-const roboto = Roboto({ weight: "400" });
+const roboto = Roboto({ weight: "400", subsets: ["latin"] });
 
 export const NavBar = () => {
   const [showNav, setShowNav] = useState(true);

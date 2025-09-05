@@ -1,6 +1,6 @@
 import { Roboto } from "next/font/google";
 
-const roboto = Roboto({ weight: "400" });
+const roboto = Roboto({ weight: "400", subsets: ["latin"] });
 
 export const Services = () => {
   const companies = [
@@ -76,10 +76,10 @@ export const Services = () => {
                     {company.expandedContent}
                   </p>
                   <img
-                      src={company.image}
-                      alt={`${company.name} visual`}
-                      className="w-full h-32 object-cover rounded-lg shadow-lg my-4"
-                    />
+                    src={company.image}
+                    alt={`${company.name} visual`}
+                    className="w-full h-32 object-cover rounded-lg shadow-lg my-4"
+                  />
                   <div className="mt-4 flex justify-end">
                     <button
                       className={`px-6 py-2 ${company.buttonColor} ml-auto text-white text-sm rounded-lg transition-colors duration-200 cursor-pointer`}
