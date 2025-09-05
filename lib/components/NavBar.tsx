@@ -36,7 +36,7 @@ export const NavBar = () => {
               </Link>
             </div>
           </div>
-          <div className="hidden md:block">
+          <div className="">
             <div className="ml-10 flex items-baseline space-x-4">
               <Link href="/#services">
                 <div className="text-gray-700 hover:text-primary px-3 py-2 transition duration-300">
@@ -55,7 +55,7 @@ export const NavBar = () => {
               </Link>
             </div>
           </div>
-          <div className="md:hidden">
+          <div className="hidden">
             <button
               id="mobile-menu-button"
               className="text-gray-700 hover:text-primary"
@@ -75,41 +75,6 @@ export const NavBar = () => {
               </svg>
             </button>
           </div>
-        </div>
-      </div>
-      {/*<!-- Mobile menu --> */}
-      <div id="mobile-menu" className="md:hidden hidden bg-white border-t">
-        <div className="px-2 pt-2 pb-3 space-y-1">
-          <a
-            href="#home"
-            className="block px-3 py-2 text-gray-700 hover:text-primary"
-          >
-            Home
-          </a>
-          <a
-            href="#services"
-            className="block px-3 py-2 text-gray-700 hover:text-primary"
-          >
-            Services
-          </a>
-          <a
-            href="#about"
-            className="block px-3 py-2 text-gray-700 hover:text-primary"
-          >
-            About
-          </a>
-          <a
-            href="#contact"
-            className="block px-3 py-2 text-gray-700 hover:text-primary"
-          >
-            Contact
-          </a>
-          <a
-            href="#contact"
-            className="block px-3 py-2 bg-secondary text-white rounded-md hover:bg-yellow-600 transition duration-300"
-          >
-            Get Quote
-          </a>
         </div>
       </div>
     </nav>

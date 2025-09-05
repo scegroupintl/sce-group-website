@@ -60,7 +60,7 @@ export const Services = () => {
         >
           {/* Main card content - always visible */}
           <div
-            className={`p-5 h-[176px] flex items-center bg-none ${company.bgGradient} ${company.colors} group-hover:items-start space-x- text-left gap-6 hover:h-[450px] transition-all duration-500 ease-out`}
+            className={`p-5 h-[176px] flex items-center bg-none ${company.bgGradient} ${company.colors} group-hover:items-start space-x- text-left gap-6 hover:h-[495px] md:hover:h-[450px] transition-all duration-500 ease-out`}
           >
             <img
               src={company.logo}

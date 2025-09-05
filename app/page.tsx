@@ -27,10 +27,10 @@ export default function Home() {
                 Soluciones integrales para cada necesidad
               </h1>
               <p className="text-xl text-blue-100">
-                En SCE Group, integramos diferentes áreas de especialización
+                En SCE International Group, integramos diferentes áreas de especialización
                 para ofrecer respuestas completas a cada desafío
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col-reverse md:flex-col sm:flex-row gap-4">
                 <Link href="#contact">
                   <div className="bg-secondary text-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-800 transition duration-300 text-center">
                     Contacto
