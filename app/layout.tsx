@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { IBM_Plex_Serif } from "next/font/google";
 import "./globals.css";
 import Footer from "@/lib/components/Footer";
+import { Toaster } from "react-hot-toast";
 
 const fontFamily = IBM_Plex_Serif({ weight: "400", subsets: ["latin"] });
 
@@ -40,6 +41,10 @@ export default function RootLayout({
       data-scroll-behavior="smooth"
     >
       <body>
+        <Toaster
+          position="bottom-center"
+          toastOptions={{ className: "text-xl" }}
+        />
         {children}
         <Footer />
       </body>
