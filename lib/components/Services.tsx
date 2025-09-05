@@ -72,14 +72,14 @@ export const Services = () => {
                 className={`${roboto.className} hidden group-hover:block bg-white/10  border-t border-white/20 opacity-0 transform translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-out`}
               >
                 <div className="">
-                  <p className="text-slate-800 text-sm leading-relaxed">
-                    {company.expandedContent}
-                  </p>
                   <img
                     src={company.image}
                     alt={`${company.name} visual`}
                     className="w-full h-32 object-cover rounded-lg shadow-lg my-4"
                   />
+                  <p className="text-slate-800 text-sm leading-relaxed">
+                    {company.expandedContent}
+                  </p>
                   <div className="mt-4 flex justify-end">
                     <button
                       className={`px-6 py-2 ${company.buttonColor} ml-auto text-white text-sm rounded-lg transition-colors duration-200 cursor-pointer`}

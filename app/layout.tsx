@@ -6,8 +6,8 @@ import Footer from "@/lib/components/Footer";
 const fontFamily = IBM_Plex_Serif({ weight: "400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "SCE International",
-  description: "Deploy your static Next.js site to GitHub Pages.",
+  title: "SCE Group International",
+  description: "SCE Group International es un grupo empresarial dedicado a ofrecer soluciones integrales en diversas áreas de servicios, adaptándose a las necesidades de cada cliente.",
   icons: {
     icon: `${process.env.PAGES_BASE_PATH || ""}/sce-favicon-192.png`,
   },
