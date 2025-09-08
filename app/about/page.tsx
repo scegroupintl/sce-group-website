@@ -45,7 +45,7 @@ export default function Page() {
             </video>
           </div>
           <div>
-            <p className="text-lg text-gray-700 my-4 text-justify">
+            <p className="md:text-lg text-gray-700 my-4 text-justify">
               La visión principal es que los miembros puedan tener una
               estabilidad económica y por ende un enfoque espiritual en sus
               responsabilidades eclesiásticas como también una seguridad
@@ -55,7 +55,7 @@ export default function Page() {
               y proveer el servicio que sea necesario para un mantenimiento
               constante y una garantía certificada por su fabricante.
             </p>
-            <p className="text-lg text-gray-700 my-4 text-justify">
+            <p className="md:text-lg text-gray-700 my-4 text-justify">
               Como empresa, nuestro compromiso es hacer un trabajo profesional y
               de alta calidad para así cumplir y/o lograr los estándares
               requeridos, nos sentimos capaces de responder ante cualquier
