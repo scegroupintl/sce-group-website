@@ -4,11 +4,11 @@ const Footer = () => {
   return (
     <footer className="bg-slate-800 text-white py-6">
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
-        <div className="mb-2 md:mb-0 text-center md:text-left">
+        <div className="mb-2 md:mb-0 text-center text-sm md:text-base md:text-left">
           &copy; {new Date().getFullYear()} SCE Group International. Todos los
           derechos reservados.
         </div>
-        <div className="flex flex-col md:flex-row items-center gap-2 text-sm">
+        <div className="flex flex-col md:flex-row items-center gap-2 text-xs md:text-sm">
           <span>
             Contacto:{" "}
             <a

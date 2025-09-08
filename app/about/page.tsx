@@ -39,7 +39,7 @@ export default function Page() {
               width="400"
               muted
               autoPlay
-              className="fade-in bg-turquoise-lightest rounded-md shadow-lg my-6 md:m-0"
+              className="fade-in bg-turquoise-lightest rounded-md shadow-lg mb-6 md:m-0"
             >
               <source src={`${process.env.PAGES_BASE_PATH}/sce-logo-video.mp4`} type="video/mp4" />
             </video>
