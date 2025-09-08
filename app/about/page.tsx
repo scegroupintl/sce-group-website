@@ -22,7 +22,7 @@ export default function Page() {
       <section className="flex flex-col items-center justify-center bg-gray-50 py-8">
         <div className="container mx-auto px-4 flex flex-col items-center max-w-4xl">
           <div className="flex flex-col md:flex-row items-center gap-8">
-            <p className="text-lg text-gray-700 mb-4 text-justify">
+            <p className="md:text-lg text-gray-700 mb-4 text-justify">
               Hemos decidido comenzar un proyecto en diferentes estados del
               país, este proyecto encierra un grupo de ideas que estimulan el
               crecimiento laboral como el desarrollo espiritual de las personas
