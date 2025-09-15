@@ -1,4 +1,5 @@
 import { Roboto } from "next/font/google";
+import Link from "next/link";
 
 const roboto = Roboto({ weight: "400", subsets: ["latin"] });
 
@@ -6,7 +7,8 @@ export const Services = () => {
   const companies = [
     {
       logo: `${process.env.PAGES_BASE_PATH}/sce_intl_square.jpg`,
-      name: "SCE International",
+      href: "https://internationalsce.com",
+      name: "SCE Services and Supplies",
       description:
         "Servicios de Landscaping, Pintura, Plomería, Albañilería, Mantenimiento y más",
       expandedContent:
@@ -22,6 +24,7 @@ export const Services = () => {
     },
     {
       logo: `${process.env.PAGES_BASE_PATH}/sce-accounting.jpg`,
+      href: "https://sceaccounting.com",
       name: "SCE Accounting Services",
       description: "Servicios de contabilidad y preparación de impuestos",
       expandedContent:
@@ -37,6 +40,7 @@ export const Services = () => {
     },
     {
       logo: `${process.env.PAGES_BASE_PATH}/sce-cinematic.jpg`,
+      href: "https://scecinematic.com",
       name: "SCE Cinematic Group",
       description: "Grabación y producción de videos profesionales.",
       expandedContent:
@@ -86,7 +90,7 @@ export const Services = () => {
                 </div>
               </div>
             </div>
-            
+
             {/* Expanded content - shown on hover */}
             <div
               className={`${roboto.className} border-t border-gray-300 mt-4 opacity-0 transform translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-out`}
@@ -103,11 +107,13 @@ export const Services = () => {
                   {company.expandedContent}
                 </p>
                 <div className="mt-4 flex justify-end">
-                  <button
-                    className={`px-6 py-2 ${company.buttonColor} ml-auto text-white text-sm rounded transition-colors duration-200 cursor-pointer`}
-                  >
-                    Ver Más
-                  </button>
+                  <Link href={company.href}>
+                    <button
+                      className={`px-6 py-2 ${company.buttonColor} ml-auto text-white text-sm rounded transition-colors duration-200 cursor-pointer`}
+                    >
+                      Ver Más
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
