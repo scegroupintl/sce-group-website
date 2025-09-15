@@ -51,17 +51,17 @@ export const NavBar = () => {
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
               <Link href="/#services">
-                <div className="text-gray-700 hover:text-primary px-3 py-2 transition duration-300">
+                <div className="relative text-gray-700 hover:text-primary px-3 py-2 transition duration-300 after:content-[''] after:absolute after:bottom-1 after:left-3 after:right-3 after:h-px after:bg-primary after:scale-x-0 after:origin-center after:transition-transform after:duration-300 hover:after:scale-x-100">
                   Servicios
                 </div>
               </Link>
               <Link href="/about">
-                <div className="text-gray-700 hover:text-primary px-3 py-2 transition duration-300">
+                <div className="relative text-gray-700 hover:text-primary px-3 py-2 transition duration-300 after:content-[''] after:absolute after:bottom-1 after:left-3 after:right-3 after:h-px after:bg-primary after:scale-x-0 after:origin-center after:transition-transform after:duration-300 hover:after:scale-x-100">
                   Sobre Nosotros
                 </div>
               </Link>
               <Link href="/#contact">
-                <div className="text-gray-700 hover:text-primary px-3 py-2 transition duration-300">
+                <div className="relative text-gray-700 hover:text-primary px-3 py-2 transition duration-300 after:content-[''] after:absolute after:bottom-1 after:left-3 after:right-3 after:h-px after:bg-primary after:scale-x-0 after:origin-center after:transition-transform after:duration-300 hover:after:scale-x-100">
                   Contacto
                 </div>
               </Link>
@@ -100,21 +100,21 @@ export const NavBar = () => {
         <div className="px-2 pt-2 pb-3 space-y-1">
           <a
             href="/#services"
-            className="block px-3 py-2 text-gray-700 hover:text-primary"
+            className="relative block px-3 py-2 text-gray-700 hover:text-primary after:content-[''] after:absolute after:bottom-1 after:left-3 after:right-3 after:h-px after:bg-primary after:scale-x-0 after:origin-center after:transition-transform after:duration-300 hover:after:scale-x-100"
             onClick={toggleMobileMenu}
           >
             Servicios
           </a>
           <a
             href="/about"
-            className="block px-3 py-2 text-gray-700 hover:text-primary"
+            className="relative block px-3 py-2 text-gray-700 hover:text-primary after:content-[''] after:absolute after:bottom-1 after:left-3 after:right-3 after:h-px after:bg-primary after:scale-x-0 after:origin-center after:transition-transform after:duration-300 hover:after:scale-x-100"
             onClick={toggleMobileMenu}
           >
             Sobre Nosotros
           </a>
           <a
             href="/#contact"
-            className="block px-3 py-2 text-gray-700 hover:text-primary"
+            className="relative block px-3 py-2 text-gray-700 hover:text-primary after:content-[''] after:absolute after:bottom-1 after:left-3 after:right-3 after:h-px after:bg-primary after:scale-x-0 after:origin-center after:transition-transform after:duration-300 hover:after:scale-x-100"
             onClick={toggleMobileMenu}
           >
             Contacto
